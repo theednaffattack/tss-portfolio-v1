@@ -20,6 +20,13 @@ const config = defineConfig({
     tanstackStart(),
     viteReact(),
   ],
+  // FROM: https://github.com/sdorra/content-collections/issues/655#issuecomment-3340303218
+  // to fix content-collections import issues
+  resolve: {
+    alias: {
+      '@': '/src',
+    },
+  },
 })
 
 export default config
