@@ -1,7 +1,7 @@
 @reference "tailwindcss";
 
 [data-rehype-pretty-code-figure] {
-  /* @apply bg-black; */
+  @apply bg-black;
   @apply mt-6 mb-4;
 }
 [data-rehype-pretty-code-figure] code {
